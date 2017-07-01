@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin:0;padding:0;}
+		.tab{width:80%;margin:20px auto 0;max-width:1200px;}
+		.tab h2{text-align:center;}
+		.tab .tab-nav{width:100%;list-style-type:none;text-align:center;margin:10px 0;}
+		.tab .tab-nav li{display:inline-block;padding:10px;border-bottom:2px solid #ffffff;cursor:pointer;}
+		.tab .tab-nav li:hover{border-bottom-color:#29a7ff;}
+		.tab .tab-nav li.active{border-bottom-color:#29a7ff;}
+		.tab .tab-items{width:100%;}
+		.item{display:none;position:relative;}
+		.item.show{display:block;}
+		.item .copy{position:absolute;right:0px;top:-32px;cursor:pointer;border:1px solid #fff;padding:2px;}
+		.item .copy.success{border-color:#60a917;}
+		.item textarea{width:100%;min-height:500px;padding:10px;}
+	</style>
+</head>
+<body>
+	<section class="tab">
+		<h2>CAFAGO AppDownload页面代码</h2>
+		<ul class="tab-nav"></ul>
+		<div class="tab-items"></div>
+	</section>
+<script id="code" type="text/html">
+&lt;link href="//deal.cafago.com/app/app_style.css" type="text/css" rel="stylesheet" /&gt;
+&lt;script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5688799e3f7e90e3" async=""&gt;&lt;/script&gt;
+<div class="app_head">
+	<div class="head">
+		<div class="logo">
+			<img src="//static.cafago.com/cafago/icon/logo.png" alt="cafago">
+		</div>
+		<div class="share">
+			<div class="addthis_sharing_toolbox" style="clear: both;"></div>
+		</div>
+	</div>
+</div>
+<section class="sec1">
+	<div class="page">
+		<div class="page_img">
+			<div class="mobile">
+				<img class="mobile_out" src="//deal.cafago.com/app/mobile.png">
+				<div class="mobile_in"></div>	
+			</div>
+		</div>
+		<div class="page_txt">
+			<h3><span>{{s1_title}}</span></h3>
+			<p><span>{{s1_text1}}</span><span class="points">{{s1_text2}}</span><span>{{s1_text3}}</span></p>
+			<div class="page_icon">
+				<div class="app_code">
+					<img src="//deal.cafago.com/app/icon_ewm_app.png">
+				</div>
+				<div class="app_download">
+					<a class="goole_play" href="https://at.umeng.com/fu0PHv">
+						<p>{{s1_google_1}}</p>
+						<h5>{{s1_google_2}}</h5>
+					</a>
+					<a class="app_store" href="https://itunes.apple.com/cn/app/cafago-cool-electronic-gadgets/id1225819931?mt=8">
+						<p>{{s1_apple_1}}</p>
+						<h5>{{s1_apple_2}}</h5>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="sec2">
+	<div class="page">
+		<div class="page_txt">
+			<span class="flag">01</span>
+			<h3>{{s2_title}}</h3>
+			<p><span>{{s2_text1}}</span></p>
+			<p><span>{{s2_text2}}</span></p>
+			<p><span>{{s2_text3}}</span></p>
+		</div>
+		<div class="page_img">
+			<div class="mobile">
+				<img class="mobile_out" src="//deal.cafago.com/app/mobile.png">
+				<div class="mobile_in"></div>	
+			</div>
+		</div>
+		
+	</div>
+</section>
+<section class="sec3">
+	<div class="page">
+		<div class="page_img">
+			<div class="mobile">
+				<img class="mobile_out" src="//deal.cafago.com/app/mobile.png">
+				<div class="mobile_in"></div>	
+			</div>
+		</div>
+		<div class="page_txt">
+			<span class="flag">02</span>
+			<h3>{{s3_title}}</h3>
+		</div>
+	</div>
+</section>
+<section class="sec4">
+	<div class="page">
+		<div class="page_txt">
+			<span class="flag">03</span>
+			<h3>{{s4_title}}</h3>
+		</div>
+		<div class="page_img">
+			<div class="mobile">
+				<img class="mobile_out" src="//deal.cafago.com/app/mobile.png">
+				<div class="mobile_in"></div>	
+			</div>
+		</div>
+	</div>
+</section>
+<section class="sec5">
+	<div class="page">
+		<div class="page_img">
+			<div class="mobile">
+				<img class="mobile_out" src="//deal.cafago.com/app/mobile.png">
+				<div class="mobile_in"></div>	
+			</div>
+		</div>
+		<div class="page_txt">
+			<span class="flag">04</span>
+			<h3>{{s5_title}}</h3>
+		</div>
+	</div>
+</section>
+<section class="sec6">
+	<div class="page">
+		<div class="page_img">
+			<img src="//deal.cafago.com/app/app_s6.jpg" alt="">
+		</div>
+		<div class="page_txt">
+			<p>{{s6_title}}</p>
+		</div>
+		<div class="page_icon">
+			<a class="goole_play" href="https://at.umeng.com/fu0PHv">
+				<p>{{s6_google_1}}</p>
+				<h5>{{s6_google_2}}</h5>
+			</a>
+			<a class="app_store" href="https://itunes.apple.com/cn/app/cafago-cool-electronic-gadgets/id1225819931?mt=8">
+				<p>{{s6_apple_1}}</p>
+				<h5>{{s6_apple_2}}</h5>
+			</a>
+		</div>
+	</div>
+</section>
+</script>
+<script src="js/zepto.min.js"></script>
+<script src="js/template.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/zepto.getcode.js"></script>
+<script>
+	$('.tab').getcode({
+		type: ['en', 'es', 'de', 'fr', 'ar'],
+		githubUrl: 'https://raw.githubusercontent.com/tomtopFE/appdownload/master',
+		projectName: 'appdownload'
+	})
+</script>
+</body>
+</html>
