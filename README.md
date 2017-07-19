@@ -4,14 +4,14 @@
 此例为cafago app下载页面的多语言翻译
 
 复制代码页面
-[GetCode](https://tomtopfe.github.io/appdownload/)
+[GetCode](https://tomtopfe.github.io/appdownload/cafago)
 
 多语言编辑页面
-* [en](https://tomtopfe.github.io/appdownload/en/) 
-* [es](https://tomtopfe.github.io/appdownload/es/) 
-* [de](https://tomtopfe.github.io/appdownload/de/) 
-* [fr](https://tomtopfe.github.io/appdownload/fr/) 
-* [ar](https://tomtopfe.github.io/appdownload/ar/)
+* [en](https://tomtopfe.github.io/appdownload/cafago/en/) 
+* [es](https://tomtopfe.github.io/appdownload/cafago/es/) 
+* [de](https://tomtopfe.github.io/appdownload/cafago/de/) 
+* [fr](https://tomtopfe.github.io/appdownload/cafago/fr/) 
+* [ar](https://tomtopfe.github.io/appdownload/cafago/ar/)
 
 
 ## 背景
