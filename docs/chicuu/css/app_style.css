@@ -247,7 +247,7 @@ section .page {
   position: relative;
 }
 .sec1 {
-  background: #b3dfd6 url(//deal.cafago.com/app/app_s1_bg.jpg) 0 0 repeat;
+  background: #b3dfd6 url(//deal.chicuu.com/app/app_s1_bg.jpg) 0 0 repeat;
 }
 .sec1 .page {
   clear: both;
@@ -317,10 +317,10 @@ section .page {
   padding-left: 120px;
 }
 .sec1 .page_icon .app_download .goole_play {
-  background-image: url(//deal.cafago.com/app/icon_google.png);
+  background-image: url(//deal.chicuu.com/app/icon_google.png);
 }
 .sec1 .page_icon .app_download .app_store {
-  background-image: url(//deal.cafago.com/app/icon_apple.png);
+  background-image: url(//deal.chicuu.com/app/icon_apple.png);
 }
 .sec2 {
   background: #cbe8f6;
@@ -370,7 +370,7 @@ section .page {
   left: -120px;
   bottom: 160px;
   z-index: 12;
-  background: url(//deal.cafago.com/app/app_s2_2.jpg) no-repeat;
+  background: url(//deal.chicuu.com/app/app_s2_2.jpg) no-repeat;
   transition: all 2s ease;
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
@@ -385,7 +385,7 @@ section .page {
   left: 80%;
   top: 20%;
   z-index: 1;
-  background: url(//deal.cafago.com/app/app_s2_1.jpg) no-repeat;
+  background: url(//deal.chicuu.com/app/app_s2_1.jpg) no-repeat;
   transition: all 2s ease;
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
@@ -428,7 +428,7 @@ section .page {
   left: 40%;
   bottom: 0;
   z-index: 1;
-  background: url(//deal.cafago.com/app/app_s3.png) no-repeat;
+  background: url(//deal.chicuu.com/app/app_s3.png) no-repeat;
   transition: all 2s ease;
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
@@ -525,7 +525,7 @@ section .page {
   left: -190px;
   bottom: 38px;
   z-index: 1;
-  background: url(//deal.cafago.com/app/app_s5.png) no-repeat;
+  background: url(//deal.chicuu.com/app/app_s5.png) no-repeat;
 }
 .sec5 .page_txt {
   width: 40%;
@@ -572,11 +572,11 @@ section .page {
   padding-left: 100px;
 }
 .sec6 .page_icon .goole_play {
-  background-image: url(//deal.cafago.com/app/icon_google.png);
+  background-image: url(//deal.chicuu.com/app/icon_google.png);
   margin-right: 20px;
 }
 .sec6 .page_icon .app_store {
-  background-image: url(//deal.cafago.com/app/icon_apple.png);
+  background-image: url(//deal.chicuu.com/app/icon_apple.png);
 }
 header {
   display: none;
