@@ -1,0 +1,144 @@
+@import "b_format.less";
+@import "b_varclass.less";
+.app_head{background:#333;
+	.head{height:78px;width:100%;max-width:1200px;margin:0 auto;.clearfix;padding-top:16px;}
+	.logo{float:left;}
+	.share{float:right;}
+}
+section{width:100%;
+	.page_txt{
+		.flag{font-size:100px;}
+		h3{top:60px;font-size:26px;color:#333;line-height:1.5;font-weight:bold;margin-top:10px;
+		}
+		p{font-size:20px;color:#333;line-height:1.5;}
+	}
+	.mobile{position:relative;width:484px;
+		.mobile_out{width:100%;position:relative;z-index:9;}
+		.mobile_in{width:330px;height:582px;position:absolute;top:16.56%;left:14.8%;
+			overflow:hidden;border:1px solid #15122e;z-index:10;
+			background-image:url(//deal.cafago.com/app/cafago_i1.jpg);background-repeat:no-repeat;
+		}
+	}
+	.page{width:100%;max-width:1200px;margin:0 auto;position:relative;}
+}
+.sec1{background:#b3dfd6 url(//deal.cafago.com/app/cafago_s1_bg.jpg) 0 0 repeat;
+	.page{.clearfix;}
+	.page_img{width:40%;float:left;}
+	.page_txt{width:60%;float:left;
+		padding-top:14.8%;
+		p .points{color:#ff6600;font-size:34px;}	
+	}
+	.page_icon{.clearfix;margin-top:80px;
+		.app_code{float:left;width:200px;margin-right:20px;}
+		.app_download{float:left;
+			a{display:block;width:340px;height:88px;border:1px solid #333;border-radius:44px;margin-top:8px;
+				background-repeat:no-repeat;background-size:53px 64px;background-position:40px center;
+				p{font-size:20px;padding-top:20px;padding-left:120px;}
+				h5{font-size:30px;padding-top:6px;padding-left:120px;}
+			}
+			.goole_play{background-image:url(//deal.cafago.com/app/cafago_google.png);}
+			.app_store{background-image:url(//deal.cafago.com/app/cafago_apple.png);}
+		}
+	}
+}
+.sec2{background:#cbe8f6;
+	.page{.clearfix;}
+	.page_txt{width:40%;float:left;
+		padding-top:6%;
+		.flag{color:#6cb4f3;}	
+		p{margin-top:20px;
+			span{width:100%;height:50px;line-height:50px;border-radius:25px;
+				padding:0 16px;font-size:26px;
+			}
+		}
+	}
+	.page_img{width:60%;float:left;
+		.mobile{
+			&:before{content:'';width:368px;height:293px;position:absolute;left:-120px;bottom:160px;z-index:12;
+				background:url(//deal.cafago.com/app/cafago_s2_2.jpg) no-repeat;.ani_time(2s);
+			}
+			&:after{content:'';width:260px;height:462px;position:absolute;left:80%;top:20%;z-index:1;
+				background:url(//deal.cafago.com/app/cafago_s2_1.jpg) no-repeat;.ani_time(2s);
+			}
+		}
+		.mobile:hover{
+			&:before{left:-320px;}
+			&:after{left:88%;}
+		}
+	}
+	
+}
+.sec3{background:#e6d9ee;
+	.page{.clearfix;}
+	.page_img{width:40%;float:left;
+		.mobile{
+			.mobile_in{background-image:url(//deal.cafago.com/app/cafago_i2.jpg);}
+			&:after{content:'';width:855px;height:692px;position:absolute;left:40%;bottom:0;z-index:1;
+				background:url(//deal.cafago.com/app/cafago_s3.png) no-repeat;.ani_time(2s);
+			}
+		}
+	}
+	.page_txt{width:60%;float:left;
+		padding-top:6%;
+		.flag{color:#c69ed3;}
+	}
+}
+.sec3:hover{
+	.page_img{
+		.mobile{
+			&:after{left:60%;}
+		}
+	}
+}
+.sec4{background:#ffebed;
+	.page{.clearfix;}
+	.page_txt{width:60%;float:left;
+		padding-top:12%;
+		.flag{color:#feb5b1;}
+	}
+	.page_img{width:40%;float:left;
+		.mobile{.ani_time(2s);.ani_translate(30px,0);
+			.mobile_in{background-image:url(//deal.cafago.com/app/cafago_i3.jpg?v=20170724);}
+		}
+	}	
+}
+.sec4:hover{
+	.page_img{
+		.mobile{.ani_translate(0,0);}
+	}
+}
+.sec5{background:#d5e8e8;
+	.page{.clearfix;}
+	.page_img{width:60%;float:left;
+		.mobile{margin:0 auto;
+			&:after{content:'';width:853px;height:674px;position:absolute;left:-190px;bottom:38px;z-index:1;
+				background:url(//deal.cafago.com/app/cafago_s5.png)  no-repeat;
+			}
+		}
+	}
+	.page_txt{width:40%;float:left;
+		padding-top:6%;
+		.flag{color:#7ec0cc;}
+	}
+}
+.sec6{background:#fafafa;
+	.page_img{width:540px;margin:0 auto;}
+	.page_txt{text-align:center;}
+	.page_icon{display:table;margin:20px auto 0;padding-bottom:50px;
+		a{display:inline-block;width:300px;height:80px;border:1px solid #333;border-radius:44px;margin-top:8px;
+			background-repeat:no-repeat;background-size:53px 64px;background-position:36px center;
+			p{font-size:18px;padding-top:20px;padding-left:100px;}
+			h5{font-size:28px;padding-top:6px;padding-left:100px;}
+		}
+		.goole_play{background-image:url(//deal.cafago.com/app/cafago_google.png);margin-right:20px;}
+		.app_store{background-image:url(//deal.cafago.com/app/cafago_apple.png);}
+	}
+}
+header{display:none;}
+nav.contentInside.pu_mainNav_Warp.lbBox.insideNav{display:none;}
+.help_center h2{display:none;}
+.help_center .h_comment{padding:0;}
+.account_c.clearfix.w{width:100%;}
+section#viewedFeatured{display:none;}
+footer.contentOut.pu_footer{margin-top:0;}
+.fixed_bottom{display:none;}
