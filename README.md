@@ -12,6 +12,11 @@
 * [de](https://tomtopfe.github.io/appdownload/cafago/de/) 
 * [fr](https://tomtopfe.github.io/appdownload/cafago/fr/) 
 * [ar](https://tomtopfe.github.io/appdownload/cafago/ar/)
+* [ru](https://tomtopfe.github.io/appdownload/cafago/ru/)
+* [it](https://tomtopfe.github.io/appdownload/cafago/it/)
+* [pl](https://tomtopfe.github.io/appdownload/cafago/pl/)
+* [cs](https://tomtopfe.github.io/appdownload/cafago/cs/)
+* [nl](https://tomtopfe.github.io/appdownload/cafago/nl/)
 
 
 ## 背景
